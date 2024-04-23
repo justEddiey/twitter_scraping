@@ -97,7 +97,7 @@ export const twitter = {
 		}
 		console.log('starting scraper')
 
-		await page.screenshot({ path: './example.png' })
+		// await page.screenshot({ path: './example.png' })
 	
 		let tweetTextSelector = '.r-rjixqe.r-16dba41.r-bnwqim';
 		let tweetTimeSelector = '.css-175oi2r.r-18u37iz.r-1q142lx';
