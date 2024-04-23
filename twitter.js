@@ -74,30 +74,32 @@ export const twitter = {
   },
 
   login: async () => {
-    console.log("loggin into twitter");
-    const username = twitterConfig.USER;
-    const password = twitterConfig.PASS;
 
-    let userNameInputSelector = "input.r-7cikom.r-1ny4l3l.r-t60dpp.r-fdjqy7";
-    let passwordInputSelector = ".r-7cikom.r-1ny4l3l.r-t60dpp.r-fdjqy7";
-    await page.goto(LOGIN_URL);
-    await page.waitForSelector(userNameInputSelector);
-    await page.type(userNameInputSelector, username, { delay: 55 });
-    await page.screenshot({ path: "./login.png" });
-    await page.click(
-      ".r-ymttw5.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l:nth-child(6)"
-    );
-    await page.waitForSelector(passwordInputSelector);
-    await page.type(passwordInputSelector, password, { delay: 55 });
-    await page.screenshot({ path: "./login-pass.png" });
-
-    await Promise.all([
-      page.waitForNavigation(),
-      await page.click(".css-175oi2r.r-pw2am6"),
-    ]);
-
-    await page.screenshot({ path: "./login-final.png" });
-    // await page.waitForNetworkIdle()
+	try{
+		console.log("logging into twitter");
+		const username = twitterConfig.USER;
+		const password = twitterConfig.PASS;
+	
+		let userNameInputSelector = "input.r-7cikom.r-1ny4l3l.r-t60dpp.r-fdjqy7";
+		let passwordInputSelector = ".r-7cikom.r-1ny4l3l.r-t60dpp.r-fdjqy7";
+		await page.goto(LOGIN_URL);
+		await page.waitForSelector(userNameInputSelector);
+		await page.type(userNameInputSelector, username, { delay: 55 });
+		await page.click(
+		  ".r-ymttw5.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l:nth-child(6)"
+		);
+		await page.waitForSelector(passwordInputSelector);
+		await page.type(passwordInputSelector, password, { delay: 55 });
+	
+		await Promise.all([
+		  page.waitForNavigation(),
+		  await page.click(".css-175oi2r.r-pw2am6"),
+		]);
+	}
+	catch(e){
+		console.error(e)
+	}
+    
   },
   getTweets: async (username, count = 10) => {
     try {
@@ -134,11 +136,11 @@ export const twitter = {
 
       console.log(`Scraped ${tweets.length} tweets`);
       tweets = tweets.slice(0, count);
-      fs.writeFileSync(
-        "./tweets.json",
-        JSON.stringify(tweets, null, 4),
-        "utf-8"
-      );
+    //   fs.writeFileSync(
+    //     "./tweets.json",
+    //     JSON.stringify(tweets, null, 4),
+    //     "utf-8"
+    //   );
       return tweets;
     } catch (e) {
       console.error(e);
