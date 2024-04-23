@@ -88,7 +88,9 @@ export const twitter = {
 
 	},
 	getTweets: async (username,count = 10) => {
-		let url = await page.url();
+
+	try{
+			let url = await page.url();
 		
 		if(url != USERNAME_URL(username)){
 			await page.goto(USERNAME_URL(username));
@@ -119,8 +121,6 @@ export const twitter = {
 			tweetsArray = await page.$$(tweetContainerSelector);
 			// await new Promise(r=> setTimeout(r,500))
 	
-			
-
 			if(lastTweetsArrayLength == tweetsArray.length) break;
 
 			lastTweetsArrayLength = tweetsArray.length;
@@ -132,6 +132,11 @@ export const twitter = {
 		tweets = tweets.slice(0,count);
 		fs.writeFileSync('./tweets.json',JSON.stringify(tweets,null, 4),'utf-8');
 		return tweets;
+	}
+	catch (e){
+			console.error(e)
+		}
+		
 	},
 	end: async () => {
 		await browser.close()
