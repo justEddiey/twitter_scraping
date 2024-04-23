@@ -1,5 +1,5 @@
 import pg from 'pg';
-import { dbConfig } from '../config.js';
+import { dbConfig } from '../lib/config.js';
 import format from 'pg-format';
 
 
@@ -40,7 +40,7 @@ const getPagingData = (result, page, limit, totalRecords) => {
     data: result.rows };
 };
 
-export class TweetModel {
+export class TweetService {
     constructor() {    
       this.db = PgClient;
     

@@ -1,8 +1,8 @@
 
 import puppeteer from 'puppeteer';
 import fs from 'fs'
-import { twitterConfig } from './config.js';
-import { saveImageFromUrl } from './utils.js';
+import { twitterConfig } from './lib/config.js';
+import { saveImageFromUrl } from './lib/utils.js';
 import {setTimeout} from "node:timers/promises";
 
 

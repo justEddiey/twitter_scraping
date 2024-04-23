@@ -2,13 +2,17 @@
 import express from 'express'
 import swaggerUi from 'swagger-ui-express'
 import swaggerJSDoc from 'swagger-jsdoc';
-import { swaggerDefinition } from './config.js';
+import { swaggerDefinition } from './lib/config.js';
 
-import { PgClient, TweetModel } from "./models/post.js";
+import { TweetService } from "./services/tweetService.js";
 import { twitter } from './twitter.js';
+import { startCron } from './cronJob.js';
 
 
-const tweetService = new TweetModel();
+
+
+
+const tweetService = new TweetService();
 const app = express();
 
 
@@ -111,6 +115,8 @@ app.get("/data", async (req, res, next) => {
 //       }
 
 // getUserById()
+
+startCron()
 
 app.listen(3000, () => {
  console.log("Server running on port 3000");

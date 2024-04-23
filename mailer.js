@@ -1,4 +1,4 @@
-import { mailConfig } from "./config.js";
+import { mailConfig } from "./lib/config.js";
 import nodemailer from "nodemailer"
 
 
