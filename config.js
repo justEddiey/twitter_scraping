@@ -37,7 +37,7 @@ export const swaggerDefinition = {
   },
   servers: [
     {
-      url: 'http://localhost:3000',
+      url: process.env.SERVER_URL,
       description: 'Development server',
     },
   ],
