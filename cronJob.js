@@ -5,7 +5,7 @@ import { processTweets } from "./lib/helpers.js";
 const tweetService = new TweetService();
 
 export const startCron = async () => {
-  schedule.scheduleJob("0 22 * * * *", async () => {
+  schedule.scheduleJob("0 22 * * * ", async () => {
     await twitter.initialize();
     await twitter.login();
 

@@ -41,27 +41,27 @@ const extractElements = async (page) => {
 
 export const twitter = {
   initialize: async () => {
-    browser = await puppeteer.launch({
-      headless: false,
-      executablePath:
-        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-      defaultViewport: {
-        width: 1440,
-        height: 1080,
-      },
-    });
     // browser = await puppeteer.launch({
-    // 	args: [
-    // 		"--disable-setuid-sandbox",
-    // 		"--no-sandbox",
-    // 		"--single-process",
-    // 		"--no-zygote",
-    // 	  ],
-    // 	  executablePath:
-    // 		process.env.NODE_ENV === "production"
-    // 		  ? process.env.PUPPETEER_EXECUTABLE_PATH
-    // 		  : puppeteer.executablePath(),
-    // })
+    //   headless: false,
+    //   executablePath:
+    //     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    //   defaultViewport: {
+    //     width: 1440,
+    //     height: 1080,
+    //   },
+    // });
+    browser = await puppeteer.launch({
+    	args: [
+    		"--disable-setuid-sandbox",
+    		"--no-sandbox",
+    		"--single-process",
+    		"--no-zygote",
+    	  ],
+    	  executablePath:
+    		process.env.NODE_ENV === "production"
+    		  ? process.env.PUPPETEER_EXECUTABLE_PATH
+    		  : puppeteer.executablePath(),
+    })
     try {
       page = await browser.newPage();
       await page.setUserAgent(
