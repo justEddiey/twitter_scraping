@@ -30,6 +30,27 @@ app.get("/",(req, res, next) => {
         
    });
 
+app.get("/scrape", async (req, res, next) => {
+
+
+    try {
+      
+      await twitter.initialize()
+      // await twitter.login();
+      
+      const tweets = await twitter.getTweets('coinbase', 50)
+      // await tweetService.saveTweets(tweets)
+
+      await twitter.end()
+      res.json('scraping success');
+    } catch (err) {
+     
+      res.status(500).send('Internal Server Error');
+    }
+      
+    
+     });
+
 // Define a route
 /**
  * @swagger
@@ -76,18 +97,18 @@ app.get("/data", async (req, res, next) => {
    });
   
 
-const getUserById = async (req,res) => {
+// const getUserById = async (req,res) => {
 
 
-      await twitter.initialize()
-      // await twitter.login();
+//       await twitter.initialize()
+//       // await twitter.login();
       
-      const tweets = await twitter.getTweets('coinbase', 50)
-      // await tweetService.saveTweets(tweets)
+//       const tweets = await twitter.getTweets('coinbase', 50)
+//       // await tweetService.saveTweets(tweets)
 
-      await twitter.end()
+//       await twitter.end()
          
-      }
+//       }
 
 // getUserById()
 

@@ -37,16 +37,36 @@ const extractElements = async (page) =>{
 
 export const twitter = {
 	initialize : async () => {
+		
+		// browser = await puppeteer.launch({
+		// 	headless : false,
+		// 	executablePath: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+		// 	defaultViewport: {
+		// 		width: 1440,
+		// 		height: 1080
+		// 	}
+		// });
 		browser = await puppeteer.launch({
-			headless : false,
-			executablePath: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-			defaultViewport: {
-				width: 1440,
-				height: 1080
-			}
-		});
-		page = await browser.newPage();
-		await page.goto(BASE_URL);
+			args: [
+				"--disable-setuid-sandbox",
+				"--no-sandbox",
+				"--single-process",
+				"--no-zygote",
+			  ],
+			  executablePath:
+				process.env.NODE_ENV === "production"
+				  ? process.env.PUPPETEER_EXECUTABLE_PATH
+				  : puppeteer.executablePath(),
+		})
+		try{
+			page = await browser.newPage();
+			await page.setUserAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36")
+			await page.goto(BASE_URL);
+		}
+		catch (e){
+           console.error(e)
+		}
+		
 		
 	},
 
@@ -73,6 +93,9 @@ export const twitter = {
 		if(url != USERNAME_URL(username)){
 			await page.goto(USERNAME_URL(username));
 		}
+		console.log('starting scraper')
+
+		await page.screenshot({ path: './example.png' })
 	
 		let tweetTextSelector = '.r-rjixqe.r-16dba41.r-bnwqim';
 		let tweetTimeSelector = '.css-175oi2r.r-18u37iz.r-1q142lx';
@@ -85,7 +108,7 @@ export const twitter = {
 		let lastTweetsArrayLength = 0;
 		let tweets = []
 
-		while(tweetsArray.length < count){xx
+		while(tweetsArray.length < count){
 			const tweetData = await extractElements(page)
 			console.log(tweetData)
 			tweets = [...tweets,...tweetData]
