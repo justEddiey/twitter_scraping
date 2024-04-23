@@ -1,83 +1,347 @@
 [
     {
         "titles": "Food for thought:\nWhat if money was designed to get you more over time, not less?\n#Bitcoin",
-        "image_src": "https://pbs.twimg.com/ext_tw_video_thumb/1779900574231576576/pu/img/nlbKAk9fQM65Cb-T.jpg",
-        "postedDate": "15 Apr",
-        "video_src": "blob:https://twitter.com/1de4164d-89fc-4ba2-ab64-1d190add9ea1",
+        "image_src": "",
+        "postedDate": "Apr 15",
+        "video_src": "",
         "repliesCount": "2.4K",
         "likesCount": "2.4K",
         "repostCount": "2.3K"
     },
     {
-        "titles": "The fourth #Bitcoin halving is almost here.\nAnd a proper thank you is in order to the ones impacted the most.\n\nSo, to the miners…thank you for moving money forward.",
-        "image_src": "https://pbs.twimg.com/ext_tw_video_thumb/1781397429432000512/pu/img/2JrhKVyzl67N_pHm.jpg",
-        "postedDate": "19 Apr",
-        "video_src": "blob:https://twitter.com/343dcac9-a15f-45a5-8b02-14ee5cfd0784",
-        "repliesCount": "3.5K",
-        "likesCount": "3.5K",
-        "repostCount": "1.4K"
-    },
-    {
-        "titles": "840,001",
-        "image_src": "",
-        "postedDate": "20 Apr",
+        "titles": "To celebrate the fourth halving, we’re giving away 1 #Bitcoin each week between now and May 20th.\n\nFirst drawing is on May 9th.\n\nHere’s how to enter ↓\nhttp://coinbase.com/bitcoin-halving-giveaway…",
+        "image_src": "https://pbs.twimg.com/media/GL4wP2wWEAA6sca?format=jpg&name=small",
+        "postedDate": "1m",
         "video_src": "",
-        "repliesCount": "106",
-        "likesCount": "106",
-        "repostCount": "117"
+        "repliesCount": "8",
+        "likesCount": "8",
+        "repostCount": "3"
+    },
+    {
+        "titles": "No purchase necessary. US (excluding HI), CA (excluding QC), IRE, GER, and FR only. Void where prohibited. Ends 5/20/2024.\n\nRules: http://coinbase.com/bitcoin-halving-giveaway/rules…",
+        "image_src": "",
+        "postedDate": "1m",
+        "video_src": "",
+        "repliesCount": "",
+        "likesCount": "",
+        "repostCount": ""
     },
     {
         "titles": "The fourth #Bitcoin halving is almost here.\nAnd a proper thank you is in order to the ones impacted the most.\n\nSo, to the miners…thank you for moving money forward.",
-        "image_src": "https://pbs.twimg.com/ext_tw_video_thumb/1781397429432000512/pu/img/2JrhKVyzl67N_pHm.jpg",
-        "postedDate": "19 Apr",
-        "video_src": "blob:https://twitter.com/692e5f79-a12b-4461-8c58-3bc24adf1184",
+        "image_src": "",
+        "postedDate": "Apr 19",
+        "video_src": "",
         "repliesCount": "3.5K",
         "likesCount": "3.5K",
         "repostCount": "1.4K"
+    },
+    {
+        "titles": "We're excited to welcome \n@VitalikButerin\n as keynote speaker of this year's Machine Learning and Blockchain Research Summit.\n\nRegister now to join us virtually on 5.2 and connect with leading experts from the blockchain and AI industries.\n\n→ http://coinbase.com/ml-bc-summit",
+        "image_src": "https://pbs.twimg.com/media/GKvtP1SWUAAsJJK?format=jpg&name=small",
+        "postedDate": "Apr 9",
+        "video_src": "",
+        "repliesCount": "388",
+        "likesCount": "388",
+        "repostCount": "378"
+    },
+    {
+        "titles": "Join us tomorrow for a great discussion on national security with a fantastic group of experts\n\n\n@BlockchainAssn\n \n@KMSmithDC\n \n@ARedbord\n \n@DavidJUrban\n \n@CampbellJAustin\n https://x.com/BlockchainAssn/BlockchainAssn/status/1777032537379946649…",
+        "image_src": "",
+        "postedDate": "Apr 7",
+        "video_src": "",
+        "repliesCount": "89",
+        "likesCount": "89",
+        "repostCount": "60"
+    },
+    {
+        "image_src": "",
+        "video_src": ""
+    },
+    {
+        "titles": "Our Break The Cycle ad is nominated for a #Webby.\nIt struck a nerve with people inside and outside this space who all want a better system.\n\nA vote for this ad is a vote for just that—a better system.\n\nVote here → https://vote.webbyawards.com/PublicVoting#/2024/advertising-media-pr/advertising-campaigns/best-video-campaign…\n\nMaybe next year's voting can be onchain.",
+        "image_src": "https://pbs.twimg.com/media/GARyBxIXQAAotvh.jpg",
+        "postedDate": "Apr 5",
+        "video_src": "blob:https://twitter.com/0b730308-0f0d-41ec-a5ea-4bd208fb405d",
+        "repliesCount": "300",
+        "likesCount": "300",
+        "repostCount": "192"
+    },
+    {
+        "titles": "Good news. \n\nWe are now registered as a Restricted Dealer in Canada, making us the first international and largest exchange registered there.\n\nLearn more: http://coinbase.com/blog/coinbase-obtains-registration-as-a-restricted-dealer-in-canada…",
+        "image_src": "https://pbs.twimg.com/media/GKVhK30X0AAD3fs?format=png&name=small",
+        "postedDate": "Apr 4",
+        "video_src": "",
+        "repliesCount": "405",
+        "likesCount": "405",
+        "repostCount": "518"
+    },
+    {
+        "titles": "Millions of Canadians own digital assets.\n86% of them believe the financial system needs an update.\n\nRegistration is the latest step in doing just that.\n\nRegulation is critical. 29% of non-crypto owners said they'd buy if there were more industry regulation.",
+        "image_src": "",
+        "postedDate": "Apr 4",
+        "video_src": "",
+        "repliesCount": "56",
+        "likesCount": "56",
+        "repostCount": "69"
+    },
+    {
+        "titles": "We’re committed to continuing our work with Canadian policymakers and regulators to make Canada a leader in the global crypto economy.\n\nThe future of money is here.",
+        "image_src": "",
+        "postedDate": "Apr 4",
+        "video_src": "",
+        "repliesCount": "61",
+        "likesCount": "61",
+        "repostCount": "67"
     },
     {
         "titles": "Over 300 guests including builders and policymakers attended the #UpdateTheSystem summit in DC.\n\nThanks to all who attended to discuss how crypto and onchain technology are helping move money, and America, forward. ",
         "image_src": "https://pbs.twimg.com/ext_tw_video_thumb/1774905113951289344/pu/img/zAPSHESDkqxiJh55.jpg",
-        "postedDate": "1 Apr",
-        "video_src": "blob:https://twitter.com/0ace7f9a-83f8-4390-8b7f-ecb27f330428",
+        "postedDate": "Apr 1",
+        "video_src": "blob:https://twitter.com/a5ec3ffe-df01-4b58-a726-879eb91b88d1",
         "repliesCount": "280",
         "likesCount": "280",
-        "repostCount": "176"
+        "repostCount": "175"
     },
     {
         "titles": "Buying \n@girlscouts\n cookies with USDC on Base.\n\nJust another onchain use case.",
         "image_src": "https://pbs.twimg.com/ext_tw_video_thumb/1773771964798181376/pu/img/-PX6StjVUfpgf7fu.jpg",
-        "postedDate": "29 Mar",
-        "video_src": "blob:https://twitter.com/e794fb7f-f662-44b1-bc11-9d8ce4e5c941",
+        "postedDate": "Mar 29",
+        "video_src": "blob:https://twitter.com/f9de5a3d-f4cc-49e8-995e-e1ea90a4e75e",
         "repliesCount": "305",
         "likesCount": "305",
-        "repostCount": "267"
+        "repostCount": "265"
     },
     {
         "titles": "Good morning. ",
         "image_src": "https://pbs.twimg.com/media/GJsP6ufagAAE3mw?format=jpg&name=small",
-        "postedDate": "27 Mar",
+        "postedDate": "Mar 27",
         "video_src": "",
         "repliesCount": "717",
         "likesCount": "717",
-        "repostCount": "979"
+        "repostCount": "978"
     },
     {
-        "titles": "Big thanks to all who attended the #UpdateTheSystem Summit in DC.\n\nFrom our partnership with \n@CompassCoffeeDC\n (showcasing seamless USDC transaction powered by \n@Slice__so\n), to panel discussions with \n@brian_armstrong\n, it was a great day.\n\nLet's keep moving crypto (and America)…",
+        "titles": "Big thanks to all who attended the #UpdateTheSystem Summit in DC.\n\nFrom our partnership with \n@CompassCoffeeDC\n (showcasing seamless USDC transaction powered by \n@Slice__so\n), to panel discussions with \n@brian_armstrong\n, it was a great day.\n\nLet's keep moving crypto (and America)",
         "image_src": "https://pbs.twimg.com/media/GJJteK4WIAARi8x?format=jpg&name=360x360",
-        "postedDate": "21 Mar",
+        "postedDate": "Mar 21",
         "video_src": "",
         "repliesCount": "354",
         "likesCount": "354",
-        "repostCount": "204"
+        "repostCount": "203"
     },
     {
-        "titles": "If you’re in DC come check out \n@CompassCoffeeDC\n - you can pay with crypto (zero fees paying with USDC on Base), and get a free can of coffee if you mint their NFT.\n\n1201 Half St SE, Washington, DC 20003\n\nShout out to \n@slice__so\n for hosting the Point of Sale software  and…",
+        "titles": "If you’re in DC come check out \n@CompassCoffeeDC\n - you can pay with crypto (zero fees paying with USDC on Base), and get a free can of coffee if you mint their NFT.\n\n1201 Half St SE, Washington, DC 20003\n\nShout out to \n@slice__so\n for hosting the Point of Sale software  and",
         "image_src": "https://pbs.twimg.com/media/GJI5i22WMAEyUXC?format=jpg&name=small",
-        "postedDate": "20 Mar",
+        "postedDate": "Mar 20",
         "video_src": "",
         "repliesCount": "242",
         "likesCount": "242",
         "repostCount": "255"
+    },
+    {
+        "titles": "Can’t make it to today's #UpdateTheSystem Summit in DC?\n\nTune in live to watch \n@brian_armstrong\n, \n@pmarca\n, \n@faryarshirzad\n, and others discuss crypto's impact on everyday life.\nhttps://youtube.com/live/axM9xDrFK7c?feature=share…",
+        "image_src": "https://pbs.twimg.com/media/GJIMUeKWkAA74vH?format=jpg&name=small",
+        "postedDate": "Mar 20",
+        "video_src": "",
+        "repliesCount": "319",
+        "likesCount": "319",
+        "repostCount": "191"
+    },
+    {
+        "titles": "You voted with your wallets.\nThis design was minted the most. (good choice)\n\nCatch it on the shelves in stores all over the country this summer.\n\nAnd prepare to scan for Onchain Vision.",
+        "image_src": "https://pbs.twimg.com/media/GJDkWk7W4AAIGiK.jpg",
+        "postedDate": "Mar 19",
+        "video_src": "blob:https://twitter.com/4b2eb030-3731-4671-997a-caff6ed6539f",
+        "repliesCount": "238",
+        "likesCount": "238",
+        "repostCount": "130"
+    },
+    {
+        "titles": "For 5+ years, the industry's been hard at work building the infrastructure to update the financial system.\n\nToday, the use cases for crypto are no longer future promises. They're already here.\n\n→ http://coinbase.com/blog/what-is-crypto-good-for-anyway…",
+        "image_src": "https://pbs.twimg.com/media/GJCnCzWWkAEhtRd?format=jpg&name=small",
+        "postedDate": "Mar 19",
+        "video_src": "",
+        "repliesCount": "1K",
+        "likesCount": "1K",
+        "repostCount": "1.3K"
+    },
+    {
+        "titles": "Crypto moves America forward.\nThe future is being built today. Will policy keep pace?\n\nJoin us on 3.20 for the #UpdateTheSystem Summit in DC, where industry leaders will discuss the pivotal role that policy plays in shaping American innovation.\n\nRSVP → http://updatethesystemsummit.splashthat.com",
+        "image_src": "https://pbs.twimg.com/media/GIj9B35XkAASCgs?format=jpg&name=small",
+        "postedDate": "Mar 13",
+        "video_src": "",
+        "repliesCount": "324",
+        "likesCount": "324",
+        "repostCount": "199"
+    },
+    {
+        "titles": "Speaking of unnecessary fees, U.S. consumers paid an estimated $75 billion in credit card transaction fees in 2022 alone.\n\nSo it's not surprising that 7 in 10 want lower fees as part of an updated financial system.\n\nHere’s how crypto can help ↓ \nhttps://coinbase.com/blog/saving-greater-than-usd74-billion-as-a-start-how-crypto-makes-everyday… #SOTU2024",
+        "image_src": "https://pbs.twimg.com/media/GIHNJXgbMAAMZSU?format=png&name=small",
+        "postedDate": "Mar 8",
+        "video_src": "",
+        "repliesCount": "647",
+        "likesCount": "647",
+        "repostCount": "336"
+    },
+    {
+        "titles": "This isn't just any Tuesday. It's Super Tuesday.\nThe day when 21 million crypto holders can vote.\n\nIf you #StandWithCrypto, it’s time to make your voice heard.\nBecause what happens today, matters in November.\n\nhttp://standwithcrypto.org/vote",
+        "image_src": "https://pbs.twimg.com/media/GH7KM6waoAAOfLV?format=jpg&name=small",
+        "postedDate": "Mar 5",
+        "video_src": "",
+        "repliesCount": "568",
+        "likesCount": "568",
+        "repostCount": "274"
+    },
+    {
+        "titles": "Today was historic at the first-ever pro-crypto rally.\n\nSpecial thanks to \n@Nas\n and to everyone who joined us in LA to contribute to the conversation.\n\nReminder: Vote tomorrow, Super Tues.\n\nBecause what happens tomorrow, matters in Nov. #StandWithCrypto\nhttps://standwithcrypto.org/vote",
+        "image_src": "https://pbs.twimg.com/media/GH4H8_-bUAAjgfC?format=jpg&name=360x360",
+        "postedDate": "Mar 5",
+        "video_src": "",
+        "repliesCount": "300",
+        "likesCount": "300",
+        "repostCount": "245"
+    },
+    {
+        "titles": "Alabama stands with crypto.\n\n18% of voting-age Alabamans own digital assets.\nAnd they care about where candidates stand on crypto.\n\nRead on ↓\nhttps://coinbase.com/blog/alabama-voters-stand-with-crypto…",
+        "image_src": "https://pbs.twimg.com/media/GHsFFYSXEAA02LX?format=jpg&name=small",
+        "postedDate": "Mar 2",
+        "video_src": "",
+        "repliesCount": "390",
+        "likesCount": "390",
+        "repostCount": "254"
+    },
+    {
+        "titles": "Can you work at the speed of crypto?\n\nJoin our Coinbase Product Manager Challenge and you could score ETH, an NFT, and a call with a recruiter.\n\nSubmit now through 3/13 → http://coinbase.com/bounty #livecrypto",
+        "image_src": "",
+        "postedDate": "Mar 1",
+        "video_src": "",
+        "repliesCount": "263",
+        "likesCount": "263",
+        "repostCount": "136"
+    },
+    {
+        "titles": "It's time to #StandWithCrypto in LA.\n\nJoin the first pro-crypto rally in history the evening before Super Tuesday. There will be food, drinks, panel discussions, and a live performance by \n@Nas\n.\n\nRSVP here: http://cryptovotes.splashthat.com",
+        "image_src": "https://pbs.twimg.com/media/GHhaFBUbkAEBXzc?format=jpg&name=small",
+        "postedDate": "Feb 29",
+        "video_src": "",
+        "repliesCount": "282",
+        "likesCount": "282",
+        "repostCount": "233"
+    },
+    {
+        "titles": "We are aware that some users may see a zero balance across their Coinbase accounts & may experience errors in buying or selling. Our team is investigating this & will provide an update shortly. Your assets are safe.\nYou can track this incident at http://status.coinbase.com",
+        "image_src": "",
+        "postedDate": "Feb 28",
+        "video_src": "",
+        "repliesCount": "2.5K",
+        "likesCount": "2.5K",
+        "repostCount": "1.9K"
+    },
+    {
+        "titles": "21 million crypto holders can vote on Super Tuesday—and it’s one week away.\n\nVote on Tuesday, March 5.\nhttp://standwithcrypto.org/vote\n#StandWithCrypto",
+        "image_src": "https://pbs.twimg.com/media/GHWuEohbEAAE8JX.png",
+        "postedDate": "Feb 27",
+        "video_src": "blob:https://twitter.com/24deb77d-9b11-48fe-baf1-0549e1baaed7",
+        "repliesCount": "475",
+        "likesCount": "475",
+        "repostCount": "202"
+    },
+    {
+        "titles": "Our asset recovery tool just got an update.\n\nStarting today, users can now recover funds mistakenly sent to Coinbase on BNB Smart Chain and Polygon.",
+        "image_src": "https://pbs.twimg.com/ext_tw_video_thumb/1603420162912407560/pu/img/AeOQs3R_9hsHqQfu.jpg",
+        "postedDate": "Feb 27",
+        "video_src": "blob:https://twitter.com/a1c2f62f-5b23-450c-be7f-e42b53415eb4",
+        "repliesCount": "201",
+        "likesCount": "201",
+        "repostCount": "212"
+    },
+    {
+        "titles": "Learn more:",
+        "image_src": "",
+        "postedDate": "Feb 27",
+        "video_src": "",
+        "repliesCount": "34",
+        "likesCount": "34",
+        "repostCount": "47"
+    },
+    {
+        "titles": "We're thrilled to welcome \n@ComeProst\n as the new Coinbase Country Lead for France. \n\nHis expertise will undoubtedly elevate our presence in the French crypto landscape. \n\nBienvenue à bord, Côme. ",
+        "image_src": "https://pbs.twimg.com/media/GHSmcoYXAAAnenl?format=jpg&name=small",
+        "postedDate": "Feb 26",
+        "video_src": "",
+        "repliesCount": "167",
+        "likesCount": "167",
+        "repostCount": "135"
+    },
+    {
+        "titles": "The Lone Star State stands with crypto.\n\n4.7 million voting-age Texans own digital assets.\nAnd they care about where candidates stand on crypto.\nRead on → https://coinbase.com/blog/texas-voters-stand-with-crypto…",
+        "image_src": "https://pbs.twimg.com/media/GHCnm-basAQc7c7?format=jpg&name=small",
+        "postedDate": "Feb 23",
+        "video_src": "",
+        "repliesCount": "2.5K",
+        "likesCount": "2.5K",
+        "repostCount": "537"
+    },
+    {
+        "titles": "March 5th is Super Tuesday, when 21 million crypto holders in 14 states can make their voices heard. \n\nIf you  crypto, show your love for it today by making sure you're registered to vote. Because what happens in March matters in November. #StandWithCrypto #ValentinesDay",
+        "image_src": "https://pbs.twimg.com/media/GGUwe0IbEAAHeLC?format=png&name=small",
+        "postedDate": "Feb 14",
+        "video_src": "",
+        "repliesCount": "208",
+        "likesCount": "208",
+        "repostCount": "284"
+    },
+    {
+        "titles": "Register here:",
+        "image_src": "",
+        "postedDate": "Feb 14",
+        "video_src": "",
+        "repliesCount": "55",
+        "likesCount": "55",
+        "repostCount": "74"
+    },
+    {
+        "titles": "2/3 of the pennies made don’t circulate.\nMeanwhile, there were 9 trillion dollars worth of stablecoin transactions in 2022.\n\nThe future of money is already here.",
+        "image_src": "https://pbs.twimg.com/media/GGOzn2faQAAglgF?format=jpg&name=small",
+        "postedDate": "Feb 13",
+        "video_src": "",
+        "repliesCount": "134",
+        "likesCount": "134",
+        "repostCount": "205"
+    },
+    {
+        "titles": "Honest Abe has made it onchain.\n\nTo celebrate how stablecoins make pennies useful again, mint a penny NFT and get a penny hat for the low low price of .01¢ plus shipping — while supplies last.\n\nhttp://MintAPenny.xyz",
+        "image_src": "https://pbs.twimg.com/ext_tw_video_thumb/1757157949938765824/pu/img/x9AuWM-yO9xCNLOu.jpg",
+        "postedDate": "Feb 12",
+        "video_src": "blob:https://twitter.com/2c8d5fc5-da80-42df-bd9c-b5c250a66e53",
+        "repliesCount": "478",
+        "likesCount": "478",
+        "repostCount": "308"
+    },
+    {
+        "image_src": "",
+        "postedDate": "Feb 12",
+        "video_src": "",
+        "repliesCount": "112",
+        "likesCount": "112",
+        "repostCount": "88"
+    },
+    {
+        "titles": "The penny…\n$1.2 million worth of them go missing every year.\nIt costs nearly 3x the value of one just to make one.\nAnd it’s been 167 years since its last update.\n\nThankfully, crypto can move the penny forward.\nRight, Abe?",
+        "image_src": "https://pbs.twimg.com/media/GGJbBuibUAAYxEs.jpg",
+        "postedDate": "Feb 12",
+        "video_src": "blob:https://twitter.com/47c094d9-eb79-481f-90e4-bd2b3415535d",
+        "repliesCount": "510",
+        "likesCount": "510",
+        "repostCount": "1.4K"
+    },
+    {
+        "titles": "Join us for a discussion today at 1:30pm ET about how crypto can help move the penny - and all money - forward. Featuring journalist \n@paddyhirsch\n, Coinbase Chief Policy Officer \n@faryarshirzad\n, and adjunct professor \n@campbelljaustin\n.",
+        "image_src": "",
+        "postedDate": "Feb 12",
+        "video_src": "",
+        "repliesCount": "65",
+        "likesCount": "65",
+        "repostCount": "78"
     }
 ]
